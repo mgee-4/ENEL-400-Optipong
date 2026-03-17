@@ -6,10 +6,26 @@ An integrated hardware and software project utilizing Computer Vision to automat
 ## Project Goals
 This was a project to create a device to automate ping pong ball launching to practice one's recieves. It works with a Raspberry Pi and a Raspberry Pi Camera to detect a person in frame. Then it'll shoot the ball with a random offset towards them so users have to react to each new ball. The Raspberry Pi is the main controller of the shooting hardware, which includes the spinning launcher for ball launching, a horizontally rotating stepper motor for aiming, and a solenoid to push the ping pong ball into the launcher when the wheels are spinning fast enough. We used off the shelf motor controllers and a custom PCB for power delivery.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a947cfa5-802b-4c5f-a21a-3a640a9f9494" width="300" alt="Assembled Optipong">
+  <p>The fully assembled Optipong</p>
+</div>
+
 ## Design Process
 My part in the creation of the Optipong was designing and manufacturing the structure for our launching systems and an enclosure to house the power and control systems. Given the tight timeline of this project (4 months), I focused heavily on rapid prototyping. As this was a more involved project with multiple subsystems, my flow was to first understand each subsystem's purpose and requirements, then design and test a part to fulfill the need. With rapid testing and integration, my team and I iterated on the designs, leading to a more polished product in the end.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9c5510ff-3c3a-457b-b0d8-2fecae632513" width="300" alt="Assembled Optipong">
+  <p>The launching subsystem</p>
+</div>
+
 ## Challenges and Lessons Learned
 As my degree is in Electrical Engineering, mechanical design and manufacutring was a new field to me. Thus I ran into a lot of the common beginner 3D printing issues of tolerances. I have the Ender-3 S1 Pro, which requires a great deal of manual calibration for it to work properly. My previous usages of the printer have been for smaller scale, simpler projects, so I was able to avoid a lot of issues. One of the more significant challenges I ran into was with tolerances when assembling different parts together. Especialy compared to higher end printers, my Ender-3 S1 Pro isn't the most precise, so I would find myself having to exaggerate the spacings on components. Early on, I wasted a lot of time, energy, and materials by printing things that don't fit. I eventaully learned that I can slice the prints in a way that lets me test the fit of just the critical section, thus avoiding all the waste of a poorly designed component.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1b1bf0d3-70de-4ef8-ba9c-3698dc42797b" width="300" alt="Optipong prototype">
+  <p>Tolerances were a major consideration to get used to, sometimes manual adjustments were made</p>
+</div>
+
 
 In the 4 months we were allotted to build this, turnaround time on component creation was a major factor. Between taking other classes, the time needed to desgin, and the time needed to print the parts, I needed to be efficient. In crunch time, I would always have something printing. During that printing time I would be designing the next thing to be printed. Looking back, I could have avoided this rush if I spaced out the work for all this throughout the semester, but hindsight is 20/20. Another factor that contributed to this was the fact that the Ender-3 S1 Pro doesn't have networking capabilities, so anytime I needed to do anything printing related, I would have to physically be home. With school and other life responsiblities, this isn't always consistent.
